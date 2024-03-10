@@ -8,7 +8,7 @@ public class ModuleInfo {
 
     public static final int MIN_ORCA_VERSION = 317807898;
     public static final int MAX_ORCA_VERSION = 317807978;
-    public static final String RECOMMENDED_ORCA_VERSION_STRING = "439.0.0.29.119";
+    public static final String RECOMMENDED_ORCA_VERSION_STRING = "448.0.0.47.109";
 
     public static final String PACKAGE_AI_PLUGIN = "tn.amin.mproai";
 }
