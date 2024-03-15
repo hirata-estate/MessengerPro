@@ -204,7 +204,7 @@ public abstract class BaseHook {
 
     private void setStateNotWorking() {
         Logger.info("Disabling hook " + getId().name() + " due to previous error");
-        mStateTracker.updateState(HookState.NOT_WORKING);
+        //mStateTracker.updateState(HookState.NOT_WORKING);
 
         if (mToaster != null) {
             try {
