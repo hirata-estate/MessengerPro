@@ -6,9 +6,9 @@ public class ModuleInfo {
     public static final String LINK_TELEGRAM_SUPPORT = "https://t.me/MProSupport/";
     public static final String LINK_GITHUB_WIKI_USAGE_GUIDE = "https://github.com/Mino260806/MessengerPro/wiki/Usage-Guide/";
 
-    public static final int MIN_ORCA_VERSION = 320009250;
-    public static final int MAX_ORCA_VERSION = 320009332;
-    public static final String RECOMMENDED_ORCA_VERSION_STRING = "450.0.0.43.109";
+    public static final int MIN_ORCA_VERSION = 320210054;
+    public static final int MAX_ORCA_VERSION = 320210120;
+    public static final String RECOMMENDED_ORCA_VERSION_STRING = "451.1.0.59.109";
 
     public static final String PACKAGE_AI_PLUGIN = "tn.amin.mproai";
 }
