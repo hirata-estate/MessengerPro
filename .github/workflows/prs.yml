@@ -12,6 +12,9 @@ jobs:
         
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
-    
+
+    - name: Change wrapper permissions
+      run: chmod +x ./gradlew
+        
     - name: Execute Gradle build
       run: ./gradlew build
