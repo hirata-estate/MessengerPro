@@ -96,8 +96,7 @@ public class MessageUnicodeConverter
 		mSpecialSymbols.put("!", new CharUnicodeConverter(new ShiftConversionMethod( 0x1D622)));
 		mSpecialSymbols.put("#", new CharUnicodeConverter(new ShiftConversionMethod( 0x1D656)));
 		mSpecialSymbols.put("~", new CharUnicodeConverter(new ShiftConversionMethod( 0x1D51E)));
-		mSpecialSymbols.put(":", new CharUnicodeConverter(new ShiftConversionMethod( 0x1D4B6)));
-		mSpecialSymbols.put("+", new CharUnicodeConverter(new ShiftConversionMethod( 0x1D552)));		
+		mSpecialSymbols.put("+", new CharUnicodeConverter(new ShiftConversionMethod( 0x1D552)));
 		mSpecialSymbols.put("-", new CharUnicodeConverter(new AddConversionMethod( 0x336)));
 		mSpecialSymbols.put("_", new CharUnicodeConverter(new AddConversionMethod( 0x35F)).withFilter(c -> {
 			// Non alphanumeric characters do not use the same "y" level for underline
@@ -124,7 +123,6 @@ public class MessageUnicodeConverter
 	public static String italic(String s) { return MessageUnicodeConverter.convert(s, "!"); }
 	public static String bolditalic(String s) { return MessageUnicodeConverter.convert(s, "#"); }
 	public static String fraktur(String s) { return MessageUnicodeConverter.convert(s, "~"); }
-	public static String script(String s) { return MessageUnicodeConverter.convert(s, ":"); }
 	public static String doublestruck(String s) { return MessageUnicodeConverter.convert(s, "+"); }
 	public static String underline(String s) { return MessageUnicodeConverter.convert(s, "_"); }
 	public static String crossOut(String s) { return MessageUnicodeConverter.convert(s, "-"); }
