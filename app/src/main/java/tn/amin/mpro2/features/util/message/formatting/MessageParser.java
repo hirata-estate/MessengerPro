@@ -35,7 +35,11 @@ public class MessageParser {
                         new SimpleNodeScanner("!", "!", 5),
                         new SimpleNodeScanner("_", "_", 5),
                         new SimpleNodeScanner("#", "#", 5),
+                        new SimpleNodeScanner(":", ":", 5),
+                        new SimpleNodeScanner("+", "+", 5),
                         new SimpleNodeScanner("~", "~", 5),
+                        new SimpleNodeScanner(":", ":", 5),
+                        new SimpleNodeScanner("+", "+", 5),
                         new SimpleNodeScanner("{", "}", 4),
                         new LinkNodeScanner()
                 ))
