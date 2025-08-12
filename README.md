@@ -1,3 +1,9 @@
+### For anyone who just went down the fork chain to find a release:
+**This probably won't work.**
+At the very least, this doesn't even install on Android 16.
+This was forked on 2025-08-13, I have no fucking clue how any of this works either.
+You can find an APK file of the Xposed module in the Actions tab, which will install but may not work on A14.
+
 ### 
 
 # Messenger Pro
